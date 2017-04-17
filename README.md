@@ -44,7 +44,7 @@ $ npm run start
 ## License
 BSD 3-Clause License
 
-Copyright (c) 2017, [José Quinto](https://blogs.josequinto.com)
+Copyright (c) 2017, [José Quinto](https://blog.josequinto.com)
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
