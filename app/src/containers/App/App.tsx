@@ -10,6 +10,7 @@ export default class App extends React.Component<{}, {}> {
         return (
             <div className="app-container">
                 <TreeMap
+                    id="myTreeMap"
                     height={500}
                     width={800}
                     data={data}
