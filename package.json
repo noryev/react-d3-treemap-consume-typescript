@@ -12,9 +12,9 @@
     "start": "set NODE_ENV=development && webpack-dev-server --open --config ./webpack/webpack.config.dev.js"
   },
   "dependencies": {
-    "react": "16.10.1",
-    "react-dom": "16.10.1",
-    "react-d3-treemap": "1.0.15"
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-d3-treemap": "1.0.16"
   },
   "devDependencies": {
     "@types/node": "^7.0.4",
