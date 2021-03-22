@@ -1,11 +1,13 @@
 import * as React from "react";
-import TreeMap, { ColorModel } from "react-d3-treemap";
+import TreeMap, {
+    ColorModel,
+    NumberOfChildrenPlacement,
+} from "react-d3-treemap";
 import { data } from "../../data/data";
 // Be sure to include styles at some point
 import "react-d3-treemap/dist/react.d3.treemap.css";
 
 export default class App extends React.Component<{}, {}> {
-
     public render() {
         return (
             <div className="app-container">
@@ -16,6 +18,12 @@ export default class App extends React.Component<{}, {}> {
                     data={data}
                     valueUnit={"MB"}
                     colorModel={ColorModel.OneEachChildren}
+                    paddingInner={3}
+                    nodeStyle={{ rx: 5, paddingLeft: 5, paddingRight: 5 }}
+                    numberOfChildrenPlacement={
+                        NumberOfChildrenPlacement.TopRight
+                    }
+                    onTreeMapDidMount={(tm) => console.log(tm.getZoomLevel())}
                 />
             </div>
         );
