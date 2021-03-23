@@ -19,9 +19,9 @@ export default class App extends React.Component<{}, {}> {
                     valueUnit={"MB"}
                     colorModel={ColorModel.OneEachChildren}
                     paddingInner={3}
-                    nodeStyle={{ rx: 5, paddingLeft: 5, paddingRight: 5 }}
+                    nodeStyle={{ paddingLeft: 5, paddingRight: 5 }}
                     numberOfChildrenPlacement={
-                        NumberOfChildrenPlacement.TopRight
+                        NumberOfChildrenPlacement.BottomRight
                     }
                     onTreeMapDidMount={(tm) => console.log(tm.getZoomLevel())}
                 />
