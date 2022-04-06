@@ -18,7 +18,7 @@ module.exports = {
             'react-hot-loader/patch',
             // bundle the client for webpack-dev-server
             // and connect to the provided endpoint
-            'webpack-dev-server/client?http://localhost:3000',
+            'webpack-dev-server/client?http://127.0.0.1:5001/webui',
             // bundle the client for hot reloading
             // only- means to only hot reload for successful updates
             'webpack/hot/only-dev-server',
