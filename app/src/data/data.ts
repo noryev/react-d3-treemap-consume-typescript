@@ -3,7 +3,7 @@
 // type: folder or file
 // value: number of bytes of the doc (calculated at folder level by d3)
 // children: sub files or sub folders
-
+// how do you get IPFS data into this?
 export const data = {
     name: "flare",
     children: [
